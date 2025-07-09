@@ -1,0 +1,59 @@
+# ===================
+# Maven
+# ===================
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+**/target/
+
+
+# ===================
+# IntelliJ IDEA
+# ===================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===================
+# Mac system files
+# ===================
+.DS_Store
+
+# ===================
+# Logs
+# ===================
+*.log
+
+# ===================
+# Environment / Properties
+# ===================
+*.env
+.env
+*.properties.local
+application-*.yml
+application-*.yaml
+application-*.properties
+
+# ===================
+# Spring Boot devtools
+# ===================
+.spring-boot-devtools.properties
+
+# ===================
+# Others
+# ===================
+*.class
+*.jar
+*.war
+*.ear
+
+# VS Code (if you use it)
+.vscode/
