@@ -1,5 +1,6 @@
 package org.saga.common.event;
 
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.saga.common.dto.OrderRequestDto;
 
@@ -7,6 +8,7 @@ import java.util.Date;
 import java.util.UUID;
 
 @NoArgsConstructor
+@Data
 public class OrderEvent implements Event {
     private UUID eventId = UUID.randomUUID();
     private Date orderDate = new Date();
